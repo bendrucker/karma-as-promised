@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '0.10'
+deploy:
+  provider: npm
+  email: bvdrucker@gmail.com
+  api_key:
+    secure: WvwEsXSnZIGrgJA4D1Emv2gumqs99wvFZQlUvgivpBNTla38jAY3qoUvuYKiwoNf1FvHoqaOUK45Tj2UwtRc9nHGvBQI8J6rJYKo6lp9OPRFRXQoiIOrCTXn4rdGFNdcZHlrUvOTVeDbvGVnGwiCmqZDIZN4+4NjA1XVlh3F2Pc=
+  on:
+    tags: true
+    repo: bendrucker/karma-as-promised

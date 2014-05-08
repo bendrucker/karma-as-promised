@@ -1,0 +1,39 @@
+{
+  "name": "karma-as-promised",
+  "version": "0.1.0",
+  "description": "A lightweight promise wrapper for Karma's public API",
+  "main": "index.js",
+  "peerDependencies": {
+    "karma": "0.12.x"
+  },
+  "dependencies": {
+    "bluebird": "~1.2.4"
+  },
+  "devDependencies": {
+    "karma": "~0.12.14",
+    "chai-as-promised": "~4.1.1",
+    "chai": "~1.9.1",
+    "sinon": "~1.9.1",
+    "mocha": "~1.18.2",
+    "sinon-chai": "~2.5.0"
+  },
+  "scripts": {
+    "test": "mocha test.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bendrucker/karma-as-promised.git"
+  },
+  "keywords": [
+    "karma",
+    "test",
+    "promise",
+    "wrapper"
+  ],
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://www.bendrucker.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bendrucker/karma-as-promised/issues"
+  },
+  "homepage": "https://github.com/bendrucker/karma-as-promised"
+}
