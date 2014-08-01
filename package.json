@@ -1,16 +1,16 @@
 {
   "name": "karma-as-promised",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A lightweight promise wrapper for Karma's public API",
   "main": "index.js",
   "peerDependencies": {
-    "karma": "~0.12.16"
+    "karma": "~0.12.19"
   },
   "dependencies": {
     "bluebird": "~1.2.4"
   },
   "devDependencies": {
-    "karma": "~0.12.16",
+    "karma": "~0.12.19",
     "chai-as-promised": "~4.1.1",
     "chai": "~1.9.1",
     "sinon": "~1.9.1",
