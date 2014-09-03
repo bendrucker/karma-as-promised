@@ -1,6 +1,6 @@
 {
   "name": "karma-as-promised",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "A lightweight promise wrapper for Karma's public API",
   "main": "index.js",
   "peerDependencies": {
