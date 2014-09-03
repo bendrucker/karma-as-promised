@@ -7,15 +7,15 @@
     "karma": "~0.12.19"
   },
   "dependencies": {
-    "bluebird": "~1.2.4"
+    "bluebird": "2"
   },
   "devDependencies": {
     "karma": "~0.12.19",
-    "chai-as-promised": "~4.1.1",
-    "chai": "~1.9.1",
-    "sinon": "~1.9.1",
-    "mocha": "~1.18.2",
-    "sinon-chai": "~2.5.0"
+    "chai-as-promised": "5",
+    "chai": "1",
+    "sinon": "1",
+    "mocha": "1",
+    "sinon-chai": "2"
   },
   "scripts": {
     "test": "mocha test.js -R spec"
