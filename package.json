@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "karma": "~0.12.19",
-    "chai-as-promised": "5",
+    "chai-as-promised": "4",
     "chai": "1",
     "sinon": "1",
     "mocha": "1",
